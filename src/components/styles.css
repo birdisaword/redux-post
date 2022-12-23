@@ -1,32 +1,148 @@
+body {
+  background-color: #282c344f;
+}
+
 .new-post {
-  width: 300px;
-  height: 150px;
-  background-color: rgb(0, 255, 30);
-  border: solid red;
-  margin: 0 auto
-}
-
-.posts-wrapper {
   width: 400px;
-  height: 800px;
-  background-color: rgb(211, 211, 211);
-  border: solid rgb(0, 0, 0);
-  margin: 0 auto
+  height: 150px;
+  background-color: #282c34;
+  border-radius: 15px;
+  margin: 20px auto
 }
-
-/* .posts-list {
-  width: 300px;
-  height: 200px;
-  background-color: rgb(255, 0, 234);
-  border: solid red;
-  margin: 0 auto
-} */
 
 .post {
-  width: 300px;
-  height: 150px;
-  background-color: rgb(255, 106, 0);
-  border: solid rgb(68, 0, 255);
-  margin: 10px auto;
+  width: 400px;
+  max-height: 300px;
+  background-color: #282c34;
+  margin: 2% auto;
+  border-radius: 15px;
+  color: #dddddd;
+  position: relative;
+}
 
+.authors_input {
+  background-color: #ffffffd7;
+  margin: 10px auto;
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+  height: 25px;
+  width: 70%;
+}
+
+.authors_input:focus {
+  background-color: #ffffffc1;
+}
+
+.text_input {
+  background-color: #ffffffd7;
+  margin: 5px auto;
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+  height: 50px;
+  width: 70%;
+}
+
+.text_input:focus {
+  background-color: #ffffffc1;
+}
+
+.image_input {
+  background-color: #ffffffd7;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  border-style: none;
+  height: 20px;
+  width: 50%
+}
+
+.image_input:focus {
+  background-color: #ffffffc1;
+}
+
+.button_input {
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  border-style: none;
+  height: 22px;
+  width: 20%
+}
+
+.button_input:active {
+  background-color: #cbcbcb;
+}
+
+.photo {
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+  float: left;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.user {
+  margin-left: 25%;
+  padding-top: 5%;
+  width: 50%;
+}
+
+.name {
+  display: block;
+  margin: 1%;
+}
+
+.nickname {
+  display: inline-block;
+  margin: 1%;
+  font-size: smaller;
+  opacity: 40%;
+}
+
+.date {
+  display: inline-block;
+  margin: 1%;
+  font-size: smaller;
+  opacity: 40%;
+}
+
+.content {
+  display: block;
+  margin-top: 3%;
+  margin-left: 25%;
+  padding: 10px 0;
+  width: 50%;
+  height: 15%;
+  overflow:scroll;
+  color: #ffffffd7;
+  font-size: 15px;
+}
+
+.image {
+  width: 53%;
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 40%;
+  max-height: 100px;
+  object-fit: cover;
+} 
+
+.icons{
+  width:100%;
+  bottom: 15px;
+  position: absolute;
+}
+
+.icon {
+  width: 15px;
+  margin: -3px 5px
+}
+
+.icon-wrapper {
+  display: inline-block;
+  opacity: 40%;
+  margin: 0 5% 10px 5%;
 }

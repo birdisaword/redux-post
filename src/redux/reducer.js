@@ -1,4 +1,4 @@
-import { ADD_POST, ADD_TEXT, ADD_IMAGE, CHOOSE_AUTHOR } from "../redux/actions"
+import { ADD_POST, ADD_TEXT, ADD_IMAGE, CHOOSE_AUTHOR  } from "../redux/actions"
 
 const POSTS = [
   {
@@ -27,22 +27,34 @@ export const reducer = (state = initialState, action) => {
     }
     case ADD_TEXT:
       return [{
-        text: action.text
+        text: action.payload
       },
       ...state
     ];
     case ADD_IMAGE:
 			return [{
-        image: action.image
+        image: action.payload
       },
       ...state 
     ];
     case CHOOSE_AUTHOR:
       return [{
-        author: action.author,
+        author: action.payload,
       },
     ...state
   ];
+  // case ADD_NICKNAME:
+  //   return [{
+  //     nickname: action.payload
+  //   },
+  //   ...state
+  // ];
+  // case ADD_PHOTO:
+  //   return [{
+  //     photo: action.payload
+  //   },
+  //   ...state
+  // ];
     default:
       return state
   }
