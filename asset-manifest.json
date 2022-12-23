@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/redux-post/static/css/main.a117120d.css",
-    "main.js": "/redux-post/static/js/main.13b690b0.js",
+    "main.css": "/redux-post/static/css/main.c9fd67f7.css",
+    "main.js": "/redux-post/static/js/main.0fa4637f.js",
     "static/js/787.99b88ef1.chunk.js": "/redux-post/static/js/787.99b88ef1.chunk.js",
+    "static/media/photo3.png": "/redux-post/static/media/photo3.f86283c698cd2327d7b0.png",
+    "static/media/photo1.png": "/redux-post/static/media/photo1.ead42dcaa1d548978e8e.png",
+    "static/media/image2.png": "/redux-post/static/media/image2.4553a44e35acddfa54cf.png",
+    "static/media/image1.png": "/redux-post/static/media/image1.44da09c37f86ee43f2a6.png",
+    "static/media/photo2.png": "/redux-post/static/media/photo2.9b96c89bf369178ac13c.png",
     "index.html": "/redux-post/index.html",
-    "main.a117120d.css.map": "/redux-post/static/css/main.a117120d.css.map",
-    "main.13b690b0.js.map": "/redux-post/static/js/main.13b690b0.js.map",
+    "main.c9fd67f7.css.map": "/redux-post/static/css/main.c9fd67f7.css.map",
+    "main.0fa4637f.js.map": "/redux-post/static/js/main.0fa4637f.js.map",
     "787.99b88ef1.chunk.js.map": "/redux-post/static/js/787.99b88ef1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a117120d.css",
-    "static/js/main.13b690b0.js"
+    "static/css/main.c9fd67f7.css",
+    "static/js/main.0fa4637f.js"
   ]
 }
